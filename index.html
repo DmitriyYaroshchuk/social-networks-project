@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="home/styles/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="head">
+                <div class="container">
+                    <div class="head__container">
+                        <a class="head__logo-mobile" href="index.html">
+                            <img src="images/optimal__logo.png" alt="logo" width="32" height="32">
+                        </a>
+                        <a class="head__logo" href="index.html">DiscountsOnServices</a>
+                        <div class="head__box-menu">
+                            <ul class="head__list-nav">
+                                <li class="head__item_open menu__js_open"><a class="head__link" href="#">Subscriptions</a>
+                                    <ul class="menu__list-drop head__list-drop">
+                                        <li class="head__item-drop"><a class="head__link-drop" href="netflex/netflex.html">Netflix</a>
+                                        <li class="head__item-drop"><a class="head__link-drop" href="youtube/youtube.html">YouTube Premium</a>
+                                        <li class="head__item-drop head__item-drop_last"><a class="head__link-drop" href="spotify/spotify.html">Spotify</a>
+                                    </ul>
+                                </li>
+                                <li><a class="head__link" href="faq/faq.html">FAQ</a></li>
+                                <li><a class="head__link" href="#">Support</a></li>
+                                <li><a class="head__link" href="account-info/account.html">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="head__box-other">
+                            <div class="head__messengers">
+                                <a class="head__viber" href="#">
+                                    <img src="images/head__viber.svg" alt="viber">
+                                </a>
+                                <a class="head__telegram" href="#">
+                                    <img src="images/head__telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <div class="head__languages">
+                                <ul class="head__list-languages">
+                                    <li class="head__item-languages_open menu__js_open"><a class="head__link" href="#">EN</a>
+                                        <ul class="menu__list-drop head__list-drop-languages">
+                                            <li class="head__item-drop"><a class="head__link-drop" href="#">English</a>
+                                            <li class="head__item-drop"><a class="head__link-drop" href="#">Ukraine</a>
+                                            <li class="head__item-drop head__item-drop_last"><a class="head__link-drop" href="#">Russian</a>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="head__button" id="popupLoginButton">Log in</button>
+                        </div>
+                        <div class="modal__burger" id="modal__button">
+                            <div class="modal__line"></div>
+                            <div class="modal__line"></div>
+                            <div class="modal__line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="benefit">
+                <div class="container">
+                    <div class="benefit__container">
+                        <div class="benefit__wrapper">
+                            <div class="benefit__title">Start enjoying a benefit
+                                of up to 50%</div>
+                            <div class="benefit__text">You have always wanted to get the same product at a special price for you, without haggling - and it is yours.</div>
+                            <button class="benefit__button" id="popupSubscribeButton">Start using</button>
+                        </div>
+                        <div class="benefit__block">
+                            <img class="benefit__photo" src="home/image/benefit__photo.jpg" alt="photo" width="648" height="500">
+                            <img class="benefit__photo benefit__photo-tablet" src="home/image/benefit__photo-tablet.jpg" alt="photo" width="344" height="290">
+                            <img class="benefit__photo benefit__photo-mobile" src="home/image/benefit__photo-mobile.jpg" alt="photo" width="327" height="276">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscription">
+                <div class="container">
+                    <div class="subscription__container">
+                        <div class="subscription__title">Choose a subscription</div>
+                        <div class="subscription__wrapper">
+                            <div class="subscription__content">
+                                <div class="subscription__subtitle">Netflix subscription rates</div>
+                                <div class="subscription__text">The constant contributes to the task of the same and thus the intended features and the set relation to the check and set also.</div>
+                                <button class="subscription__button">Learn more</button>
+                            </div>
+                            <div class="subscription__block subscription__block-netflix">
+                                <img class="subscription__photo" src="home/image/subscription__netflix.png" alt="netflix" width="388" height="262">
+                                <img class="subscription__photo subscription__photo-tablet" src="home/image/subscription__netflix-tablet.png" alt="netflix" width="228" height="154">
+                                <img class="subscription__photo subscription__photo-mobile" src="home/image/subscription__netflix-mobile.png" alt="netflix" width="216" height="146">
+                            </div>
+                        </div>
+                        <div class="subscription__wrapper">
+                            <div class="subscription__content">
+                                <div class="subscription__subtitle">Spotify Premium</div>
+                                <div class="subscription__text">The constant contributes to the task of the same and thus the intended features and the set relation to the check and set also.</div>
+                                <button class="subscription__button button">Learn more</button>
+                            </div>
+                            <div class="subscription__block subscription__block-spotify">
+                                <img class="subscription__photo" src="home/image/subscription__spotify.png" alt="spotify" width="588" height="342">
+                                <img class="subscription__photo subscription__photo-tablet" src="home/image/subscription__spotify-tablet.png" alt="spotify" width="344" height="201">
+                                <img class="subscription__photo subscription__photo-mobile" src="home/image/subscription__spotify-mobile.png" alt="spotify" width="327" height="213">
+                            </div>
+                        </div>
+                        <div class="subscription__wrapper subscription__wrapper_last">
+                            <div class="subscription__content">
+                                <div class="subscription__subtitle">YouTube Premium</div>
+                                <div class="subscription__text">The constant contributes to the task of the same and thus the intended features and the set relation to the check and set also.</div>
+                                <button class="subscription__button button">Learn more</button>
+                            </div>
+                            <div class="subscription__block subscription__block-youtube">
+                                <img class="subscription__photo" src="home/image/subscription__youtube.png" alt="youtube" width="279" height="62">
+                                <img class="subscription__photo subscription__photo-tablet" src="home/image/subscription__youtube-tablet.png" alt="youtube" width="153" height="34">
+                                <img class="subscription__photo subscription__photo-mobile" src="home/image/subscription__youtube-mobile.png" alt="youtube" width="153" height="34">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="container">
+                    <div class="work__container">
+                        <div class="work__title">How it works?</div>
+                        <div class="work__inner">
+                            <div class="work__wrapper work__wrapper-information">
+                                <div class="work__subtitle">Step 1</div>
+                                <div class="work__text">Enter your account information</div>
+                            </div>
+                            <div class="work__wrapper work__wrapper-plan">
+                                <div class="work__subtitle">Step 2</div>
+                                <div class="work__text">Select the desired subscription and plan</div>
+                            </div>
+                            <div class="work__wrapper work__wrapper-bill work__wrapper-last">
+                                <div class="work__subtitle">Step 3</div>
+                                <div class="work__text">Pay your bill
+                                    with PayPal</div>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <div class="work-info__inner">
+                                <div class="work-info__content">
+                                    <div class="work-info__title">Invite friends</div>
+                                    <div class="work-info__text">Starting today up to 50% for NETFLIX, YOUTUBE, SPOTIFY subscriptions with a secure payment from PAYPAL</div>
+                                </div>
+                                <div class="work-info__instruction">
+                                    <div class="work-info__sign">Click on the link</div>
+                                    <a class="work-info__link" href="#">Discounts On Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="container">
+                    <div class="about__container">
+                        <div class="about__title">About us</div>
+                        <div class="about__inner">
+                            <div class="about__content">
+                                <div class="about__info">We offer you a subscription to various media services at the best price.</div>
+                                <div class="about__text">We have partnered with several companies to help you find the best prices for your media subscriptions and provide you with the best prices for the Premium subscriptions you want.</div>
+                                <div class="about__conclusion">It's simple, fast and economical.</div>
+                            </div>
+                            <div class="about__block">
+                                <img class="about__photo" src="home/image/about__photo.jpg" alt="photo" width="592" height="535">
+                                <img class="about__photo about__photo-tablet" src="home/image/about__photo-tablet.jpg" alt="photo" width="344" height="408">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="container">
+                    <div class="faq__container">
+                        <div class="faq__title">FAQ</div>
+                        <div class="faq__content">
+                            <div class="faq__wrapper">
+                                <div class="faq__inner">
+                                    <div class="faq__subtitle">The set time has passed, but the invoice has not yet arrived, what should I do?</div>
+                                    <div class="faq__block"></div>
+                                </div>
+                                <div class="faq__text">Payment options we currently have: PayPal, Bitcoin.</div>
+                            </div>
+                            <div class="faq__wrapper">
+                                <div class="faq__inner">
+                                    <div class="faq__subtitle">Can I change my Netflix account email and password after purchase?</div>
+                                    <div class="faq__block"></div>
+                                </div>
+                                <div class="faq__text">Payment options we currently have: PayPal, Bitcoin.</div>
+                            </div>
+                            <div class="faq__wrapper">
+                                <div class="faq__inner">
+                                    <div class="faq__subtitle">Can I add a phone number for password recovery?</div>
+                                    <div class="faq__block"></div>
+                                </div>
+                                <div class="faq__text">Payment options we currently have: PayPal, Bitcoin.</div>
+                            </div>
+                            <div class="faq__wrapper">
+                                <div class="faq__inner">
+                                    <div class="faq__subtitle">How soon will I receive the account information I ordered?</div>
+                                    <div class="faq__block"></div>
+                                </div>
+                                <div class="faq__text">Payment options we currently have: PayPal, Bitcoin.</div>
+                            </div>
+                            <div class="faq__wrapper faq__wrapper_last">
+                                <div class="faq__inner">
+                                    <div class="faq__subtitle">How to pay?</div>
+                                    <div class="faq__block"></div>
+                                </div>
+                                <div class="faq__text">Payment options we currently have: PayPal, Bitcoin.</div>
+                            </div>
+                        </div>
+                        <button class="faq__button">Support</button>
+                        <div class="faq-info">
+                            <div class="faq-info__inner">
+                                <div class="faq-info__content">
+                                    <div class="work-info__title">Request for an additional subscription that was not found here</div>
+                                    <div class="work-info__text">Disney, Amazon Prime, Microsoft Office, Microsoft Windows</div>
+                                </div>
+                                <button class="faq-info__button">Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__container">
+                        <div class="footer__wrapper-top">
+                            <div class="footer__column footer__column-logo">
+                                <a class="footer__logo" href="index.html">
+                                    <img src="images/footer__logo-tablet.png" alt="logo">
+                                </a>
+                                <a class="footer__title" href="index.html">DiscountsOnServices</a>
+                                <div class="footer__description">It's simple, fast and economical</div>
+                            </div>
+                            <div class="footer__column footer__column-subscriptions">
+                                <div class="footer__subtitle">Subscriptions</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="netflex/netflex.html">Netflix</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="youtube/youtube.html">YouTube Premium</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="spotify/spotify.html">Spotify</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__column footer__column-nav">
+                                <div class="footer__subtitle">Site navigation</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="account-info/account.html">About</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="faq/faq.html">FAQ</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a class="footer__link" href="#">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__column footer__column-other">
+                                <div class="footer__socials">
+                                    <a href="#">
+                                        <img src="images/footer__viber.svg" alt="viber">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/footer__telegram.svg" alt="telegram">
+                                    </a>
+                                </div>
+                                <div class="footer-language">
+                                    <ul class="footer-language__list">
+                                        <li class="footer-language__item menu__js_open"><a class="footer-language__link">EN</a>
+                                            <ul class="menu__list-drop head__list-drop-languages footer__list-drop-languages">
+                                                <li class="head__item-drop"><a class="head__link-drop" href="#">English</a>
+                                                <li class="head__item-drop"><a class="head__link-drop" href="#">Ukraine</a>
+                                                <li class="head__item-drop head__item-drop_last"><a class="head__link-drop" href="#">Russian</a>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__wrapper-bottom">
+                            <div class="footer__text">Privacy Policy</div>
+                            <div class="footer__text">Copyright 2021 © All Rights Reserved</div>
+                            <div class="footer__text footer__text_last">Developed by ....</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+<!--    Модальное окно-->
+    <div class="modal" id="modal">
+        <div class="modal__main">
+            <ul class="modal__list">
+                <li class="modal__item modal__item_home">
+                    <a class="modal__link" href="index.html">Home</a>
+                </li>
+                <li class="modal__item modal__item_about">
+                    <a class="modal__link" href="account-info/account.html">About</a>
+                </li>
+                <li class="modal__item modal__item_faq">
+                    <a class="modal__link" href="faq/faq.html">FAQ</a>
+                </li>
+                <li class="modal__item modal__item_nav">
+                    <a class="modal__link" href="#">Support</a>
+                </li>
+            </ul>
+            <ul class="modal__list modal__list-sub">
+                <li class="modal__item modal__item-sub">
+                    <a class="modal__link" href="netflex/netflex.html">Netflix</a>
+                </li>
+                <li class="modal__item modal__item-sub">
+                    <a class="modal__link" href="youtube/youtube.html">YouTube</a>
+                </li>
+                <li class="modal__item modal__item-sub">
+                    <a class="modal__link" href="spotify/spotify.html">Spotify</a>
+                </li>
+            </ul>
+            <button class="modal__button-log" id="popupLoginButtonModal">Login</button>
+            <button class="modal__button-sign" id="popupLoginSignUp">Sign up</button>
+        </div>
+        <div class="modal__footer">
+            <div class="modal__socials">
+                <a class="modal__link-social" href="#">
+                    <img src="images/modal__viber.svg" alt="viber">
+                </a>
+                <a class="modal__link-social" href="#">
+                    <img src="images/modal__telegram.svg" alt="telegram">
+                </a>
+            </div>
+            <div class="modal-language">
+                <ul class="modal-language__list">
+                    <li class="head__item-languages_open menu__js_open"><a class="head__link" href="#">EN</a>
+                        <ul class="menu__list-drop head__list-drop-languages">
+                            <li class="head__item-drop"><a class="head__link-drop" href="#">English</a>
+                            <li class="head__item-drop"><a class="head__link-drop" href="#">Ukraine</a>
+                            <li class="head__item-drop head__item-drop_last"><a class="head__link-drop" href="#">Russian</a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!--    Subscription Application-->
+    <div class="popup-subscribe" id="popupSubscribe">
+        <div class="popup-subscribe__curtain popup__curtain" id="popupSubscribeCurtain"></div>
+        <div class="popup-subscribe__wrapper popup__wrapper" id="popupSubscribeWrapper">
+            <div class="popup-subscribe__inner popup__inner">
+                <div class="popup-subscribe__block popup__block">
+                    <div class="popup-subscribe__title popup__title">Subscription Application</div>
+                    <div class="popup-subscribe__close popup__close" id="popupSubscribeClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <form class="popup-subscribe__form">
+                    <div class="popup-subscribe__box popup-subscribe__box-name">
+                        <label class="popup-subscribe__label popup__label" for="popup-subscribe__name">Enter your name</label>
+                        <input class="popup-subscribe__input popup__input popup__input-style" id="popup-subscribe__name" type="text" name="Name" placeholder="Anastasiia" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-subscribe__box">
+                        <label class="popup-subscribe__label popup__label" for="popup-subscribe__mail">E-mail</label>
+                        <input class="popup-subscribe__input popup__input popup__input-style" id="popup-subscribe__mail" type="email" name="E-mail" placeholder="Enter your e-mail" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-subscribe__box popup-subscribe__box_last">
+                        <label class="popup-subscribe__label popup__label" for="popup-subscribe__phone">Phone</label>
+                        <input class="popup-subscribe__input popup__input popup__input-style" id="popup-subscribe__phone" type="tel" name="Phone" placeholder="Enter your phone" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                </form>
+                <button class="popup-subscribe__button popup__button" id="popupSubscribeButtonApply">Apply</button>
+            </div>
+        </div>
+
+
+        <!--    Purchase payment-->
+        <div class="popup-payment__wrapper popup__wrapper" id="popupPaymentWrapper">
+            <div class="popup-payment__inner popup__inner">
+                <div class="popup-payment__block popup__block">
+                    <div class="popup-payment__title popup__title">Purchase payment</div>
+                    <div class="popup-payment__close popup__close" id="popupPaymentClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-payment__services">
+                    <div class="popup-payment__apple">
+                        <img src="images/apple.svg" alt="apple">
+                    </div>
+                    <div class="popup-payment__google">
+                        <img src="images/google.svg" alt="google">
+                    </div>
+                </div>
+                <div class="popup-payment__card">
+                    <div class="popup-payment__box">
+                        <label class="popup-payment__label popup__label" for="popup-payment__number">Card Number</label>
+                        <input class="popup-payment__input popup__input popup__input-style" id="popup-payment__number" type="number" name="Card Number" placeholder="1234 1234 1234 1234" required>
+                        <span class="popup-payment__span popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-payment__wrapper-form">
+                        <div class="popup-payment__box popup-payment__box-form">
+                            <label class="popup-payment__label popup__label" for="popup-payment__date">Expiration Date</label>
+                            <input class="popup-payment__input popup__input popup__input-style" id="popup-payment__date" type="number" name="Expiration Date" placeholder="MM/ГГ" required>
+                            <span class="popup-payment__span popup-subscribe__span"></span>
+                        </div>
+                        <div class="popup-payment__box popup-payment__box-form popup-payment__box_last">
+                            <label class="popup-payment__label popup__label" for="popup-payment__cvc">СVC</label>
+                            <input class="popup-payment__input popup__input popup__input-style" id="popup-payment__cvc" type="number" name="СVC" placeholder="СVC" required>
+                            <span class="popup-payment__span popup-subscribe__span"></span>
+                        </div>
+                    </div>
+                    <button class="popup-payment__button popup-payment__button-card popup__button" id="popupPaymentButtonCard">Pay with card</button>
+                    <div class="popup-payment__privacy">We do not collect information on your cards, everything is safe</div>
+                </div>
+                <div class="popup-payment__wallet">
+                    <div class="popup-payment__subtitle">Payment by crypto wallet</div>
+                    <div class="popup-payment__box popup-payment__box-wallet">
+                        <label class="popup-payment__label popup__label" for="popup-payment__crypto">Select currency</label>
+                        <input class="popup-payment__input-wallet popup-payment__input popup__input" id="popup-payment__crypto" type="text" name="Currency" placeholder="Bitcoin" required readonly>
+                    </div>
+                    <button class="popup-payment__button popup__button" id="popupPaymentButtonWallet">Pay</button>
+                </div>
+            </div>
+        </div>
+
+<!--        Subscription paid-->
+        <div class="popup-paid__wrapper popup__wrapper" id="popupPaidWrapper">
+            <div class="popup-paid__inner popup__inner">
+                <div class="popup-paid__close popup__close" id="popupPaidClose">
+                    <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                    <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                </div>
+                <div class="popup-paid__title popup__title">Subscription paid</div>
+                <button class="popup-paid__button popup__button" id="popupPaidButton">Continue work</button>
+            </div>
+        </div>
+    </div>
+
+<!--    Log in-->
+    <div class="popup-login" id="popupLogin">
+        <div class="popup-login__curtain popup__curtain" id="popupLoginCurtain"></div>
+        <div class="popup-login__wrapper popup__wrapper" id="popupLoginWrapper">
+            <div class="popup-login__inner popup__inner">
+                <div class="popup-login__block popup__block">
+                    <div class="popup-login__title popup__title">Log in</div>
+                    <div class="popup-login__close popup__close" id="popupLoginClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-login__block-create">
+                    <div class="popup-login__text">New user?</div>
+                    <button class="popup-login__create" id="popupLoginCreate">Create an account</button>
+                </div>
+                <div class="popup-login__content">
+                    <div class="popup-login__box">
+                        <label class="popup-login__label popup__label" for="popup-login__mail">E-mail</label>
+                        <input class="popup-login__input popup__input popup__input-style" id="popup-login__mail" type="email" name="E-mail" placeholder="Enter your e-mail" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-login__box popup-login__box_last">
+                        <label class="popup-login__label popup__label" for="popup-login__password">Password</label>
+                        <input class="popup-login__input popup__input popup__input-style" id="popup-login__password" type="password" name="Password" placeholder="********" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-login__entrance">
+                        <button class="popup-login__button-retrieve" id="popupLoginButtonRetrieve">Forgot password?</button>
+                        <button class="popup-login__button-login popup__button" id="popupLoginButtonEnter">Log in</button>
+                    </div>
+                    <div class="popup-login__other">
+                        <div class="popup-login__line"></div>
+                        <div class="popup-login__way">Or sign in with</div>
+                        <div class="popup-login__line"></div>
+                    </div>
+                    <div class="popup-login__socials">
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__google.png" alt="google">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__google-tablet.png" alt="google">
+                        </div>
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__facebook.png" alt="facebook">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__facebook-tablet.png" alt="facebook">
+                        </div>
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__apple.png" alt="apple">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__apple-tablet.png" alt="apple">
+                        </div>
+                    </div>
+                    <div class="popup-login__privacy">Protected by reCAPTCHA and subject to the Google <a href="#" class="popup-login__link">Privacy Policy</a> and <a class="popup-login__span" href="#">Terms of Service</a>.</div>
+                </div>
+            </div>
+        </div>
+
+
+
+<!--        Create an account-->
+        <div class="popup-create__wrapper popup__wrapper" id="popupCreateWrapper">
+            <div class="popup-create__inner popup__inner">
+                <div class="popup-create__block popup__block">
+                    <div class="popup-create__title popup__title">Create an account</div>
+                    <div class="popup-create__close popup__close" id="popupCreateClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-create__info-create">
+                    <div class="popup-create__text">Already have an account?</div>
+                    <button class="popup-create__enter" id="popupCreateEnter">Sign In</button>
+                </div>
+                <div class="popup-create__content">
+                    <div class="popup-create__box">
+                        <label class="popup-create__label popup__label" for="popup-create__mail">User name</label>
+                        <input class="popup-create__input popup__input popup__input-style" id="popup-create__mail" type="text" name="Name" placeholder="Enter your name" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-create__box">
+                        <label class="popup-create__label popup__label" for="popup-create__email">Email Address</label>
+                        <input class="popup-create__input popup__input popup__input-style" id="popup-create__email" type="email" name="Email" placeholder="Enter your e-mail" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-create__box popup-create__box_last">
+                        <label class="popup-create__label popup__label" for="popup-create__password">Password</label>
+                        <input class="popup-create__input popup__input popup__input-style" id="popup-create__password" type="password" name="Password" placeholder="********" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-create__box-checkbox">
+                        <input class="popup-create__input-checkbox" id="forAgreement" type="checkbox" name="Agreement">
+                        <label class="popup-create__label-checkbox" for="forAgreement">By creating an account you agree to our <a href="#" class="popup-create__link">Privacy Policy</a> and <a class="popup-create__link" href="#">Terms of Service</a>.</label>
+                    </div>
+                    <button class="popup-create__button-reg popup__button" id="popupCreateButtonReg">Sing up</button>
+                    <div class="popup-login__other">
+                        <div class="popup-login__line"></div>
+                        <div class="popup-login__way">Or sign in with</div>
+                        <div class="popup-login__line"></div>
+                    </div>
+                    <div class="popup-create__socials">
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__google.png" alt="google">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__google-tablet.png" alt="google">
+                        </div>
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__facebook.png" alt="facebook">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__facebook-tablet.png" alt="facebook">
+                        </div>
+                        <div class="popup-login__item">
+                            <img class="popup-login__icon" src="images/popup-login__apple.png" alt="apple">
+                            <img class="popup-login__icon popup-login__icon-tablet" src="images/popup-login__apple-tablet.png" alt="apple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!--        Email verification-->
+        <div class="popup-verification__wrapper popup__wrapper" id="popupVerificationWrapper">
+            <div class="popup-verification__inner popup__inner">
+                <div class="popup-verification__block popup__block">
+                    <div class="popup-verification__title popup__title">Create an account</div>
+                    <div class="popup-verification__close popup__close" id="popupVerificationClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-verification__description popup__description">Please enter the 6-digit verification code that was sent to name@gmail,com. The code is valid for 30 minutes.</div>
+                <div class="popup-verification__box">
+                    <label class="popup-verification__label popup__label" for="popup-verification__email">Email verification code</label>
+                    <input class="popup-verification__input popup__input" id="popup-verification__email" type="text" name="Verification code" placeholder="XXXX" required>
+                    <button class="popup-verification__button">Resent code</button>
+                </div>
+                <button class="popup-verification__button-reg popup__button" id="popupVerificationButtonReg">Sing up</button>
+                <button class="popup-verification__button-code" id="popupVerificationButtonCode">Didn’t receive the code?</button>
+            </div>
+        </div>
+
+
+<!--      Successful registration-->
+       <div class="popup-finish__wrapper popup__wrapper" id="popupFinishWrapper">
+           <div class="popup-finish__inner popup__inner">
+               <div class="popup-finish__block popup__block">
+                   <div class="popup-finish__title popup__title">Create an account</div>
+                   <div class="popup-finish__close popup__close" id="popupFinishClose">
+                       <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                       <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                   </div>
+               </div>
+               <div class="popup-finish__description popup__description">By optimizing our work and using internal tools, we were able to lower the prices while keeping the highest possible.</div>
+               <button class="popup-finish__button popup__button" id="popupFinishButton">Continue work</button>
+           </div>
+       </div>
+
+
+<!--        Forget Password-->
+        <div class="popup-retrieve__wrapper popup__wrapper" id="popupRetrieveWrapper">
+            <div class="popup-retrieve__inner popup__inner">
+                <div class="popup-retrieve__block popup__block">
+                    <div class="popup-retrieve__title popup__title">Forget Password</div>
+                    <div class="popup-retrieve__close popup__close" id="popupRetrieveClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-retrieve__description popup__description">We will send reset code in this email.</div>
+                <div class="popup-retrieve__box">
+                    <label class="popup-retrieve__label popup__label" for="popup-retrieve__email">Email Address</label>
+                    <input class="popup-retrieve__input popup__input popup__input-style" id="popup-retrieve__email" type="email" name="Email" placeholder="name@gmail.com" required>
+                    <span class="popup-subscribe__span"></span>
+                </div>
+                <button class="popup-retrieve__button popup__button" id="popupRetrieveButton">Submit</button>
+            </div>
+        </div>
+
+
+<!--        Forget Password Code-->
+        <div class="popup-code__wrapper popup__wrapper" id="popupCodeWrapper">
+            <div class="popup-code__inner popup__inner">
+                <div class="popup-code__block popup__block">
+                    <div class="popup-code__title popup__title">Forget Password</div>
+                    <div class="popup-code__close popup__close" id="popupCodeClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-code__description popup__description">We will send reset code in this email.</div>
+                <div class="popup-code__box popup-verification__box">
+                    <label class="popup-verification__label popup__label" for="popup-code__email">Email verification code</label>
+                    <input class="popup-verification__input popup__input" id="popup-code__email" type="text" name="Verification code" placeholder="XXXX" required>
+                    <button class="popup-verification__button">Resent code</button>
+                </div>
+                <button class="popup-code__button popup__button" id="popupCodeButton">Restore Password</button>
+            </div>
+        </div>
+
+<!--        Forget Password New-->
+        <div class="popup-new__wrapper popup__wrapper" id="popupNewWrapper">
+            <div class="popup-new__inner popup__inner">
+                <div class="popup-new__block popup__block">
+                    <div class="popup-new__title popup__title">Forget Password</div>
+                    <div class="popup-new__close popup__close" id="popupNewClose">
+                        <img class="popup-subscribe__svg" src="images/close.svg" alt="close">
+                        <img class="popup-subscribe__svg-tablet" src="images/close-tablet.svg" alt="close">
+                    </div>
+                </div>
+                <div class="popup-code__description popup__description">Enter a new password.</div>
+                <div class="popup-new__form">
+                    <div class="popup-new__box">
+                        <label class="popup-new__label popup__label" for="popup-new__email">Password</label>
+                        <input class="popup-new__input popup__input" id="popup-new__email" type="password" name="Password" placeholder="********" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                    <div class="popup-new__box popup-new__box_last">
+                        <label class="popup-new__label popup__label" for="popup-new__email-repeat">Confirm Password</label>
+                        <input class="popup-new__input popup__input" id="popup-new__email-repeat" type="email" name="Confirm Password" placeholder="********" required>
+                        <span class="popup-subscribe__span"></span>
+                    </div>
+                </div>
+                <button class="popup-new__button popup__button" id="popupNewButton">Restore Password</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="home/scripts/main.js"></script>
+</body>
+</html>
